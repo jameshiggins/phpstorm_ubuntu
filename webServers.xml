@@ -1,0 +1,72 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c41db59c-0229-4c86-88da-d575d27acc23" name="roderick_james" url="http://sip2-183.nexcess.net">
+        <fileTransfer host="sip2-183.nexcess.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1f956861-8b73-4ecb-814d-19654f445dfb" name="nirwin_staging" url="http://nlccorp.sftp.wpengine.com">
+        <fileTransfer host="nlccorp.sftp.wpengine.com" port="2222" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bdaea7d6-07c6-426c-ae19-f3570da1f016" name="evelyn_and_arthur" url="http://evelynandarthur.com">
+        <fileTransfer host="ftp.evelynandarthur.com" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d084e6ca-df12-4c1b-8b70-b22dc7ddbdee" name="evelyn_and_arthur (1)" url="http://evelynandarthur.com">
+        <fileTransfer host="evelynandarthur.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6293e367-c426-45c8-84c0-3ca46451e8ba" name="vccw" url="http://vccw.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="f2ce2377-5d71-4407-8d0a-74a1e1734a5e" name="homestead" url="http://homestead.app">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="1e34e3d6-4f56-4b2b-a6bf-9ae78b6b2e2f" name="excessica.com" url="https://excessica.com">
+        <fileTransfer host="excessica.com" port="22" rootFolder="/home/selenak/www/excitica.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="cb6cb19a-eb59-4a0b-8526-1c49a8cfe568" name="excitica_staging" url="http://staging.excitica.com">
+        <fileTransfer host="excessica.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/selenak/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8a9e52eb-751b-459b-a011-c812d5f6f08f" name="ryders_lando" url="https://ryders-eyewear.lndo.site  ">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="f65f9254-1864-4654-8f41-07d4f1726d1f" name="http://localhost:3000/" url="http://localhost:3000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="c33d2fc8-c6b7-4985-844b-e64878a10e06" name="forum-project" url="http://127.0.0.1:8000/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="9baf4973-0dce-4612-9891-0e4752b62266" name="beyondthebasiclocal" url="http://lbeyondthebasics.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

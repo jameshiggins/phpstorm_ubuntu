@@ -1,0 +1,17 @@
+<templateSet group="PHP">
+  <template name="textfield" value="&lt;div class=&quot;form-group&quot;&gt;&#10;        {!!  Form::label('$label$', ':$label$') !!}&#10;        {!!  Form::text('$label$', null, ['class' =&gt; 'form-control']) !!}&#10;    &lt;/div&gt;" description="laravel text field" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="error_handling_laravel" value="@if( $errors -&gt;any())&#10;            &lt;ul class=&quot;alert alert-danger&quot;&gt;&#10;                @foreach($errors-&gt;all() as $error)&#10;                &lt;li&gt;{{ $error  }}&lt;/li&gt;&#10;                @endforeach&#10;            @endif&#10;             &lt;/ul&gt;" description="error validation laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

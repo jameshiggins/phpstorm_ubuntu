@@ -1,0 +1,18 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQLite" injector-id="js">
+      <display-name>HTML5 SQL Database (SQLite)</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(jsArgument("executeSql", 0))]]></place>
+    </injection>
+    <injection language="SQLite" injector-id="js">
+      <display-name>flash.data (SQLite)</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "*", "dbStatement"))]]></place>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "*", "statement", "st").withText(string().matchesBrics("[\"'`] *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .*SET)|((CREATE|DROP|ALTER) +(TABLE|INDEX))) .*[\"'`]?")))]]></place>
+      <place disabled="true"><![CDATA[jsLiteralExpression().and(asAssignedValue("text", "flash.data.SQLStatement"))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="xml">
+      <display-name>body</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("body")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+  </component>
+</application>
