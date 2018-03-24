@@ -1,10 +1,15 @@
-<keymap version="1" name="Default copy" parent="Default for XWin">
+<keymap version="1" name="jhiggins_ubuntu" parent="Default for XWin">
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="shift alt 5" />
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="shift alt 1" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
@@ -26,8 +31,13 @@
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="RerunTests" />
   <action id="RunJsbtTask">
     <keyboard-shortcut first-keystroke="alt f11" />
     <keyboard-shortcut first-keystroke="shift alt 3" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="meta comma" />
   </action>
 </keymap>
