@@ -19,6 +19,8 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift alt 2" />
   </action>
+  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute" />
@@ -60,6 +62,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl quote" />
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
+  <action id="MethodUp" />
   <action id="MoveStatementUp" />
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
@@ -93,6 +96,9 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="VcsHistory.ShowAllAffected" />
+  <action id="ViewNavigationBar">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
