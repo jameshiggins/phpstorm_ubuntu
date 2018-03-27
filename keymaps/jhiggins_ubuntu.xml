@@ -48,7 +48,6 @@
     <keyboard-shortcut first-keystroke="d" second-keystroke="d" />
   </action>
   <action id="EditorDuplicate" />
-  <action id="EditorEnter" />
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -97,7 +96,7 @@
   <action id="VcsHistory.ShowAllAffected" />
   <action id="ViewNavigationBar">
     <keyboard-shortcut first-keystroke="alt up" />
-    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.CopyWatch" />
