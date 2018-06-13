@@ -108,6 +108,10 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="meta comma" />
@@ -127,7 +131,6 @@
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="ViewNavigationBar">
-    <keyboard-shortcut first-keystroke="alt up" />
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="WD.UploadCurrentRemoteFileAction" />
