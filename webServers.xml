@@ -67,6 +67,12 @@
       <webServer id="9baf4973-0dce-4612-9891-0e4752b62266" name="beyondthebasiclocal" url="http://lbeyondthebasics.test">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="26ee59d9-e41b-41ba-98d9-c9bf30f3d788" name="space.test" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="2634ae03-b625-48d9-b09e-d39c32fe77d5" name="space.test" url="http://space.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
