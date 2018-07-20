@@ -15,6 +15,7 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
     <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
@@ -88,6 +89,9 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
   </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="Jdbc.OpenEditor.DDL">
     <mouse-shortcut keystroke="control button1" />
@@ -104,6 +108,10 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
   <action id="RerunTests" />
   <action id="ResetColumnsWidth" />
@@ -154,4 +162,5 @@
   <action id="XDebugger.CopyWatch" />
   <action id="hg4idea.QFold" />
   <action id="openAssertEqualsDiff" />
+  <action id="tasks.open.in.browser" />
 </keymap>
