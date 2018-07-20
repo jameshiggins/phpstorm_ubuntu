@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping ext="vue" type="HTML" />
       <mapping ext="sqlite" type="Native" />
       <mapping pattern=".maintenance" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
@@ -16,7 +15,6 @@
       <mapping pattern="..env.swp" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="flag" type="PLAIN_TEXT" />
-      <removed_mapping ext="vue" type="Vue.js" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
