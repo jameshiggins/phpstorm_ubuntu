@@ -77,12 +77,17 @@
   </action>
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
@@ -102,6 +107,10 @@
   </action>
   <action id="MethodUp" />
   <action id="MoveStatementUp" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
