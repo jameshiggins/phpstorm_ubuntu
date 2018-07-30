@@ -1,7 +1,10 @@
 <scheme name="Darcula_User" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="2.4166667" />
+  <option name="FONT_SCALE" value="0.75" />
   <option name="LINE_SPACING" value="1.3" />
-  <option name="EDITOR_FONT_SIZE" value="39" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
   <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="Ubuntu Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="20" />
+  <option name="CONSOLE_LIGATURES" value="true" />
 </scheme>
