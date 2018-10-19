@@ -180,6 +180,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunJsbtTask">
