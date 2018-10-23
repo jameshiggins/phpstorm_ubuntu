@@ -51,6 +51,8 @@
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
@@ -68,6 +70,7 @@
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="meta y" />
@@ -95,6 +98,7 @@
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -139,6 +143,10 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="Images.Thumbnails.EnterAction" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Jdbc.OpenEditor.DDL">
     <mouse-shortcut keystroke="control button1" />
   </action>
@@ -233,6 +241,7 @@
   <action id="ViewNavigationBar">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="ViewSource" />
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
