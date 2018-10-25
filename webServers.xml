@@ -70,7 +70,10 @@
       <webServer id="26ee59d9-e41b-41ba-98d9-c9bf30f3d788" name="space.test" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="2634ae03-b625-48d9-b09e-d39c32fe77d5" name="space.test" url="http://space.test">
+      <webServer id="2634ae03-b625-48d9-b09e-d39c32fe77d5" name="space.test (1)" url="http://space.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="62769b4f-4662-49c8-bf2b-35dd2a30ee8e" name="wpfilm" url="http://wpfilm.lndo.site:8080">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
