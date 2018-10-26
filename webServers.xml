@@ -76,6 +76,9 @@
       <webServer id="62769b4f-4662-49c8-bf2b-35dd2a30ee8e" name="wpfilm" url="http://wpfilm.lndo.site:8080">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="01e721ac-acf6-4aa4-a1ba-5a0723d8201f" name="Larafilms" url="http://myproject.lndo.site:8080/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
